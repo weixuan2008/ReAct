@@ -1,2 +1,2 @@
 # ReAct
-ReAct introduction and implementation
+ReAct Introduction and Implementation
