@@ -2,7 +2,7 @@
 
 本项目是基于 ICLR 2023 论文 [《ReAct: Synergizing Reasoning and Acting in Language Models》](https://arxiv.org/abs/2210.03629) 的一个简单概念验证 (PoC) 实现。
 
-## 什么是 ReAct？
+## 1. 什么是 ReAct？
 
 **ReAct** 是 **Reason**（推理）+ **Act**（行动）的缩写。它是一种让大语言模型（LLM）以更智能、更可信的方式解决复杂任务的设计模式。
 
@@ -10,7 +10,7 @@
 
 > **“像人类一样思考，像专家一样行动。”**
 
-### ReAct 的工作流程
+## 2. ReAct 的工作流程
 
 ReAct 模式引导模型生成一个交替进行的序列：**Thought（思考）** -> **Action（行动）** -> **Observation（观察）**。
 
@@ -21,7 +21,7 @@ ReAct 模式引导模型生成一个交替进行的序列：**Thought（思考�
 
 ---
 
-## 为什么需要 ReAct？
+## 3. 为什么需要 ReAct？
 
 相比于传统的 Prompt 方式，ReAct 解决了以下核心痛点：
 
@@ -34,7 +34,7 @@ ReAct 模式引导模型生成一个交替进行的序列：**Thought（思考�
 
 ---
 
-## 本项目实现 (PoC)
+## 4. 本项目实现 (PoC)
 
 本项目使用 Python 实现了一个最简化的 ReAct 循环。它展示了如何通过简单的 Prompt 工程，让 LLM 具备：
 *   **自我诊断**：意识到自己知识的边界。
@@ -66,7 +66,7 @@ Observation 2: 搜索结果显示他并未出演过著名的物理学家传记�
 
 ---
 
-## 快速开始
+## 5. 快速开始
 
 *(此处可根据您的具体代码结构添加安装和运行指令)*
 
@@ -80,11 +80,11 @@ Observation 2: 搜索结果显示他并未出演过著名的物理学家传记�
    ```
 3. 运行 Demo：
    ```bash
-   python main.py
+   python agent.py
    ```
 
 ---
 
-## 参考文献
+## 6. 参考文献
 
 - https://arxiv.org/pdf/2210.03629
